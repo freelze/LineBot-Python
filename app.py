@@ -52,7 +52,7 @@ def currency_crawler():
     res.encoding='utf-8'
     soup = BeautifulSoup(res.text,"html.parser")
     #end = soup.find_all('td',class_='end')#24
-    all_items = soup.find_all('tr'>'td')[307:308] #307-308
+    all_items = soup.find_all('tr'>'td')[310:311] #307-308 change to 310-311
 
     #get text
     for item in all_items:
